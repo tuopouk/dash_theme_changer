@@ -110,6 +110,7 @@ def update_graph_theme(theme, plotly_template):
                                               y="sepal_length", 
                                               color="species", 
                                               height = 600,
+                                              title = 'Iris',
                                               template = template_from_url(theme)
                                               )
                           )
@@ -129,6 +130,7 @@ def update_graph_theme(theme, plotly_template):
                                      height = 600,
                                      log_x=True, 
                                      size_max=60,
+                                     title = 'Gapminder',
                                      template = template_from_url(theme))
                           )
                 
@@ -147,6 +149,7 @@ def update_graph_theme(theme, plotly_template):
                                              points="all", 
                                              height = 600,
                                              hover_data=tips.columns,
+                                             title = 'Tips',
                                              template = template_from_url(theme)
                                              )
                           )
@@ -165,6 +168,7 @@ def update_graph_theme(theme, plotly_template):
                                                     zoom=10,
                                                     height = 600,
                                                     mapbox_style="carto-positron",
+                                                    title = 'Carshare',
                                                     template = template_from_url(theme))
                           )
                 
@@ -183,6 +187,7 @@ def update_graph_theme(theme, plotly_template):
                                               y="sepal_length", 
                                               color="species", 
                                               height = 600,
+                                              title = 'Iris',
                                               template = plotly_template
                                               )
                           )
@@ -202,6 +207,7 @@ def update_graph_theme(theme, plotly_template):
                                      log_x=True, 
                                      size_max=60,
                                      height = 600,
+                                     title = 'Gapminder',
                                      template = plotly_template)
                           )
                 
@@ -220,6 +226,7 @@ def update_graph_theme(theme, plotly_template):
                                              points="all", 
                                              height = 600,
                                              hover_data=tips.columns,
+                                             title = 'Tips',
                                              template = plotly_template
                                              )
                           )
@@ -238,6 +245,7 @@ def update_graph_theme(theme, plotly_template):
                                                     zoom=10,
                                                     height = 600,
                                                     mapbox_style="carto-positron",
+                                                    title = 'Carshare',
                                                     template = plotly_template)
                           )
                 
